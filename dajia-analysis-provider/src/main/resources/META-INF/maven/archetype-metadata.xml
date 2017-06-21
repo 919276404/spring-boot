@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor name="provider">
+    <fileSets>
+        <fileSet filtered="true" encoding="UTF-8">
+            <directory>src/main/assembly/bin</directory>
+            <includes>
+                <include>**/*.*</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+            <directory>src/main/java</directory>
+            <includes>
+                <include>**/*.*</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+            <directory>src/main/resources</directory>
+            <includes>
+                <include>**/*.*</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+            <directory>src/test/java</directory>
+            <includes>
+                <include>**/*.*</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+            <directory>src/test/resources</directory>
+            <includes>
+                <include>**/*.*</include>
+                <exclude>META-INF/maven/archetype-metadata.xml</exclude>
+            </includes>
+        </fileSet>
+    </fileSets>
+</archetype-descriptor>
